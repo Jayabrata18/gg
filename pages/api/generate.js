@@ -5,7 +5,7 @@ import { NodeHtmlMarkdown } from "node-html-markdown";
 // import {encode} from 'gpt-3-encoder'
 
 const configuration = new Configuration({
-  apiKey: sk - PHpHFds3o8uNSgE4DcOvT3BlbkFJBSKXRnzcAVQr6onQo1TE,
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 // export const config = {
